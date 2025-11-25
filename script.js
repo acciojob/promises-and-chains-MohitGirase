@@ -31,7 +31,7 @@ function submitForm(event) {
 
 function validate(age, name) {
     if (isNaN(age) || name === "") {
-        alert("Please enter valid details.");
+        alert("Please enter valid details");
         return false;
     }
     return true;
